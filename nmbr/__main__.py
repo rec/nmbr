@@ -72,7 +72,7 @@ def is_int(s):
 
 
 def stdin_lines():
-    from nmbr import try_to_int
+    from nmbr.convert import try_to_int
 
     if sys.stdin.isatty():
         return
